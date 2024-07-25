@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "yt-comments",
+    "description": "remove YouTube comments",
+    "version": "1.0",
+    "permissions": ["activeTab", "scripting"],
+    "icons": {
+        "16": "images/yt_comments.png"
+    },
+    "action": {
+        "default_icon": {
+            "16": "images/yt_comments.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
